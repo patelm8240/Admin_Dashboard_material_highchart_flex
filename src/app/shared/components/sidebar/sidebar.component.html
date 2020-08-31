@@ -1,0 +1,32 @@
+<mat-nav-list>
+  <div class="profile-card">
+    <div class="header">
+      <h2>Mohit Patel</h2>
+      <h4>mohitpatel1816@gmail.com</h4>
+    </div>
+    <img src="https://images.unsplash.com/photo-1544502062-f82887f03d1c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80" alt="">
+  </div>
+
+  <mat-divider></mat-divider>
+
+  <h2 matSubheader >Pages</h2>
+
+  <a mat-list-item routerLinkActive="list-item-active" routerLink="/">Dashboard</a>
+  <a mat-list-item routerLinkActive="list-item-active" routerLink="/posts">Posts</a>
+  <a mat-list-item routerLinkActive="list-item-active" routerLink="/articles">Articles</a>
+
+  <mat-divider></mat-divider>
+
+  <h2 matSubheader>Tools</h2>
+  <a mat-list-item routerLinkActive="list-item-active" routerLink="/contacts">
+    <mat-icon>import_contacts</mat-icon>
+    Contacts
+  </a>
+
+  <a mat-list-item routerLinkActive="list-item-active" routerLink="/contacts">
+    <mat-icon>contact_phone</mat-icon>
+    Leads
+  </a>
+
+</mat-nav-list>
+
